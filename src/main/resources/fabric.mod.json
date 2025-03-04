@@ -1,0 +1,39 @@
+{
+	"schemaVersion": 1,
+	"id": "refill_v1",
+	"version": "${version}",
+	"name": "Refill_V1",
+	"description": "First version of the Refill mod by Loris",
+	"authors": [
+		"Loris"
+	],
+	"contact": {
+		"sources": "https://github.com/LorisProg2403/Refill_V1"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/refill_v1/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.loris.refillv1.Refill_V1"
+		],
+		"fabric-datagen": [
+			"net.loris.refillv1.Refill_V1DataGenerator"
+		],
+		"client": [
+			"net.loris.refillv1.Refill_V1Client"
+		]
+	},
+	"mixins": [
+		"refill_v1.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
