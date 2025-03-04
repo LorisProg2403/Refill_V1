@@ -10,7 +10,7 @@
 	"contact": {
 		"sources": "https://github.com/LorisProg2403/Refill_V1"
 	},
-	"license": "CC0-1.0",
+	"license": "tkt",
 	"icon": "assets/refill_v1/icon.png",
 	"environment": "*",
 	"entrypoints": {
